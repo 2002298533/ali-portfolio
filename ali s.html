@@ -10,19 +10,90 @@ Codehal</title>
 <link rel="stylesheet" href="ali s.css">
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <header class="up">
         <a href="#" class="logo">Ali,</a>
         <nav class="hed">
             <a href="ali h.html" >Home</a>
-            <a href="ali a.html">About</a>
-            <a href="#" class="active">Services</a>
+            <a href="ali a.html">CV</a>
+            <a href="#" class="active">Skills</a>
             <a href="ali p .html">Portfolio</a>
             <a href="ali c.html">contact</a>
         </nav>
     </header>
-   <section class="home">
-   <div class="home-content">
+    
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+              <h3 class="title">Main Skills</h3>  
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                           <h3>DaVinci Resolve <span>90%</span></h3> 
+                           <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Adobe premer <span>80%</span></h3> 
+                            <div class="bar"><span></span></div>
+                         </div>
+
+                         <div class="progress">
+                            <h3>Adobe photoshop <span>60%</span></h3> 
+                            <div class="bar"><span></span></div>
+                         </div>
+
+                         <div class="progress">
+                            <h3>canva <span>80%</span></h3> 
+                            <div class="bar"><span></span></div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="skills-column">
+                <h3 class="title">Another skills</h3>  
+                  <div class="skills-box">
+                      <div class="skills-content">
+                          <div class="progress">
+                             <h3>camera <span>80%</span></h3> 
+                             <div class="bar"><span></span></div>
+                          </div>
+  
+                          <div class="progress">
+                              <h3>camera movment <span>75%</span></h3> 
+                              <div class="bar"><span></span></div>
+                           </div>
+  
+                           <div class="progress">
+                              <h3>camera light <span>60%</span></h3> 
+                              <div class="bar"><span></span></div>
+                           </div>
+  
+                           <div class="progress">
+                              <h3>camera setings <span>10%</span></h3> 
+                              <div class="bar"><span></span></div>
+                           </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+
      
-     <h3></h3>
+   
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+          var header = document.querySelector("header");
+          header.classList.toggle("sticky", window .scrollY > 0);
+        })
+      </script>
+
+     
 </body>

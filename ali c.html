@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>Personal Portfolio Website HTML CSS Only |
+Codehal</title>
+<link rel="stylesheet" href="ali c.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Ali,</a>
+        <nav class="hed">
+            <a href="ali h.html" >Home</a>
+            <a href="ali a.html">CV</a>
+            <a href="ali s.html">Skills</a>
+            <a href="ali p .html">Portfolio</a>
+            <a href="#" class="active">contact</a>
+        </nav>
+    </header>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="FULL NAME" required>
+                    <span class="focus"></span>
+                </div>
+
+
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+
+
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2024 by Ali Majdalawi | All Rights Reserved.</p>
+
+            
+        </div>
+    </footer>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+          var header = document.querySelector("header");
+          header.classList.toggle("sticky", window .scrollY > 0);
+        })
+      </script>
+</body>
